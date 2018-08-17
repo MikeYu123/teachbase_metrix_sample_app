@@ -1,0 +1,2 @@
+class CourseStat < ApplicationRecord
+end

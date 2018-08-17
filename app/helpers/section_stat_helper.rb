@@ -1,0 +1,2 @@
+module SectionStatHelper
+end
