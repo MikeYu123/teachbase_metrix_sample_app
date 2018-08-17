@@ -1,7 +1,8 @@
 class SectionStatsController < ApplicationController
 
   def create
-    section_stat = SectionStat.create(section_stat_params)
+    course_stat = CourseStat.find(params[:course_stat_id])
+    section_stat = course_stat.section_stats.create(section_stat_params)
     render json: section_stat
   end
 
@@ -13,6 +14,6 @@ class SectionStatsController < ApplicationController
 
   private
     def section_stat_params
-      params.require(:section_stat).permit(:score, :time_spent, :course_stat_id)
+      params.require(:section_stat).permit(:score, :time_spent)
     end
 end
