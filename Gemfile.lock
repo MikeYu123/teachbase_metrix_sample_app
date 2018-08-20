@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/MikeYu123/teachbase_metrix_collector.git
+  revision: 88225fb1936c6d85d7937e4a91708090e6890349
+  specs:
+    teachbase_metrix_collector (0.1.2)
+      activesupport (~> 5.1.1)
+      dry-configurable (~> 0.6.2)
+      rails (~> 5.1.1)
+
+GIT
   remote: https://github.com/rspec/rspec-core.git
   revision: 96450f8468baf601b9e5c00c08bcac18013426ff
   branch: master
@@ -44,14 +53,6 @@ GIT
   branch: master
   specs:
     rspec-support (3.9.0.pre)
-
-PATH
-  remote: ../teachbase_metrix_collector
-  specs:
-    teachbase_metrix_collector (0.1.2)
-      activesupport (~> 5.1.1)
-      dry-configurable (~> 0.6.2)
-      rails (~> 5.1.1)
 
 GEM
   remote: https://rubygems.org/

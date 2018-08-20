@@ -18,7 +18,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem 'teachbase_metrix_collector', path: '../teachbase_metrix_collector'
+gem 'teachbase_metrix_collector', github: 'MikeYu123/teachbase_metrix_collector'
 
 gem 'sidekiq'
 
